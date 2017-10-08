@@ -1,0 +1,137 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background: #5fc0cd;
+  z-index: 1;
+  display: flex;
+  justify-content: center; }
+  header .homepage {
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 1.8rem;
+    color: #fff; }
+  header .back {
+    position: absolute;
+    left: 1rem;
+    top: 5px;
+    display: inline-block;
+    transform: scale(0.6, 0.7); }
+
+main {
+  margin-bottom: 100px; }
+  main .nav {
+    width: 100%;
+    background: url(pic/pic-7.png) no-repeat;
+    background-size: cover;
+    height: 150px;
+    padding-top: 40px; }
+    main .nav .circle img {
+      transform: scale(0.6, 0.6); }
+    main .nav .circle {
+      display: inline-block; }
+  main .intrduce {
+    position: absolute;
+    top: 90px;
+    color: #fff;
+    display: inline-block; }
+    main .intrduce .name {
+      display: inline-block;
+      font-size: 1.8rem;
+      margin: 0; }
+    main .intrduce .age {
+      display: inline-block;
+      font-size: 1.6rem;
+      margin: 0;
+      margin-left: 15px; }
+    main .intrduce .address {
+      margin: 0;
+      font-size: 1.3rem;
+      line-height: 27px;
+      height: 27px; }
+    main .intrduce .address img {
+      vertical-align: middle;
+      transform: scale(0.5, 0.5); }
+
+ul {
+  padding: 0;
+  margin: 0 5px; }
+  ul li {
+    list-style-type: none;
+    padding: 10px 0;
+    border-bottom: 2px solid #e1e5e7; }
+  ul .name img {
+    vertical-align: middle; }
+  ul .skill {
+    padding-left: 14px;
+    border-left: 2px solid #5fc0cd;
+    font-size: 1.6rem; }
+  ul .home {
+    font-size: 1.6rem; }
+  ul .home span {
+    padding-left: 1rem;
+    padding-right: 1.5rem; }
+  ul .home span:first-child {
+    border-right: 2px solid #e1e5e7; }
+  ul .home img {
+    transform: scale(0.6, 0.6);
+    vertical-align: bottom; }
+  ul .limit {
+    font-size: 1.6rem;
+    padding-left: 10px; }
+  ul .limit span:first-child {
+    color: #e1e5e7;
+    padding-right: 20px;
+    border-right: 2px solid #e1e5e7; }
+  ul .limit span:last-child {
+    padding-left: 20px; }
+  ul .list {
+    position: relative; }
+  ul .work {
+    display: inline;
+    margin: 0; }
+  ul .own {
+    position: absolute;
+    margin-top: -10px;
+    top: 50%;
+    display: inline-block;
+    border-right: 2px solid #e1e5e7; }
+  ul .time {
+    color: #FF0000; }
+  ul .work {
+    display: inline-block;
+    padding-left: 100px; }
+
+footer {
+  width: 100%;
+  height: 3rem;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  z-index: 2;
+  padding: 1rem 0;
+  background: #fff; }
+  footer button {
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    border: 2px solid #5fc0cd;
+    outline: none; }
+  footer button:first-child {
+    color: #5fc0cd;
+    background: #fff; }
+  footer button:last-child {
+    background: #5fc0cd;
+    color: #fff; }
+
+/*# sourceMappingURL=task5-1.css.map */
